@@ -30,7 +30,6 @@ jobs:
       # Step 6: Check code quality
       - name: Code Quality Check
         run: flake8 app.py test_app.py --max-line-length=100
-
       # Step 7: Pipeline completion
       - name: CI Success
         run: echo "Python CI Pipeline Completed Successfully!"
